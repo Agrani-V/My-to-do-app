@@ -1,0 +1,104 @@
+@import "~antd/dist/antd.css";
+
+.site-calendar-demo-card {
+  display: flex;
+ 
+  border: 1px solid #eb5b5b;
+  border-radius: 1px;
+}
+
+.site-page-header{
+ 
+  display: flex;
+  width: 100vw;
+  
+  background-color: #fff565b8;
+  border: 3px solid #77c602;
+}
+.App {
+  background-color: #c49f40;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.header {
+background-image: url("../src/images/collection-of-weekly-and-daily-planner-sticker-notes-to-do-list-with-lettering-and-cute-icon-template-for-agenda-check-list-stationery-vector.jpg");
+  flex: 30%;
+  background-color: #74895d;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.headers{
+ 
+  background-color: #c49f40;
+  width: 35vw;
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.header.inputContainer {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(143, 10, 10);
+}
+
+.header input {
+  border: 1px solid #ffffff;
+}
+.todoList {
+   background-image: url("../src/images/MicrosoftTeams-image (1).png");
+   background-size: cover;
+  flex: 70%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-top: 50px;
+  flex-direction: column;
+}
+
+.task {
+  width: 500px;
+  height: 50px;
+  display: flex;
+  color: #5f5f5f;
+  border: 1px solid #77c602;
+  margin: 15px;
+}
+
+.task .content {
+  flex: 80%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.task .content span {
+  display: grid;
+  place-items: center;
+  border: 1px solid #00c659;
+  width: 100%;
+  height: 100%;
+  font-size: 18px;
+  border-right: none;
+  background-color: #eff6bf;
+}
+
+.task button {
+  flex: 20%;
+  height: 100%;
+  border: 1px solid #00c659;
+  background-color: #ff8503;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  color: #5f5f5f;
+  cursor: pointer;
+}
